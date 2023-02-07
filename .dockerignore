@@ -1,0 +1,21 @@
+# exclude build artifacts
+*.pyc
+*.pyo
+
+# exclude source code management system metadata
+.git
+.svn
+
+# exclude large files or directories
+*.log
+backups/
+
+# exclude development tools
+node_modules/
+bower_components/
+vendor/
+
+# exclude sensitive information
+*.pem
+*.key
+*.cert
